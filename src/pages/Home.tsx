@@ -1,10 +1,11 @@
 import React from 'react';
+import { HomeWrapper,Titlef } from '../styles/Home';
 
 function Home(){
     return(
-        <div className='teste'>
-            
-        </div>
+        <HomeWrapper>
+            <Titlef>Pagina Inicial</Titlef>
+        </HomeWrapper>
     );
 }
 
