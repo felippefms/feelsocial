@@ -22,6 +22,6 @@ export const Menuwrapper = styled.div`
     }
 
     a:hover{
-        background-color: #fff;
+        background-color: #5d43a5;
     }
 `
