@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import { Menuwrapper } from '../styles/Menu';
 
 function Menu(){
     return(
-        <div>
+        <Menuwrapper>
             <nav>
                 <Link to='/'>
                     <a>Página Inicial</a>
@@ -20,7 +21,7 @@ function Menu(){
                     <a>Página 4</a>
                 </Link>
             </nav>
-        </div>
+        </Menuwrapper>
     );
 }
 
