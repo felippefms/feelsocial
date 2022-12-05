@@ -6,9 +6,7 @@ export const HomeWrapper = styled.div`
     background-color: #55308a;
     display: flex;
     flex-direction: column;
-
-
-    h1{
-        color: #fff;
-    }
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 `
