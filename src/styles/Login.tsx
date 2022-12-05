@@ -4,7 +4,7 @@ export const LoginWrapper = styled.div`
     width: 550px;
     height: 650px;
     background-color: #746d88;
-    border-radius: 3%;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,13 +16,12 @@ export const LoginWrapper = styled.div`
     }
 
     h2{
-        width: 90%;
         color: white;
-        margin-bottom: 150px;
+        margin-bottom: 120px;
+        text-align: center;
     }
 
     input{
-        margin-top: 8px;
         height: 40px;
         width: 80%;
     }
