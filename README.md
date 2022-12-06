@@ -1,5 +1,5 @@
 <p align="center">
-![Feelsocial](https://github.com/felippefms/felippefms.github.io/blob/main/imgs/feelsociallogo.png?raw=true)
+<img src=https://github.com/felippefms/felippefms.github.io/blob/main/imgs/feelsociallogo.png?raw=true />
 </p>
 # Bem-Vindo(a) ao Feelsocial !
 
