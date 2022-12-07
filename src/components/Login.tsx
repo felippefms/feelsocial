@@ -1,13 +1,15 @@
 import { LoginWrapper } from '../styles/Login';
+import Logo from '../imgs/feelsociallogo.png';
 
 function Login(){
     return(
         <LoginWrapper>
-            <h1>Feelsocial</h1>
+            <img src={Logo}></img>
             <h2>Inscreva-se, conecte-se  e nos ajude a aumentar cada vez mais essa incrível rede social !</h2>
-            <input placeholder='Usuário'></input>
+            <input type="text" placeholder='Usuário'></input>
             <input type="password" placeholder='Senha'></input>
-            <button>Entrar</button>
+            <p>Não possui conta? Cadastre-se</p>
+            <button>Entrar</button>            
         </LoginWrapper>
     );
 }

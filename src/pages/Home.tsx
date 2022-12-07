@@ -5,7 +5,6 @@ import Login from '../components/Login';
 
 function Home(){
     return(
-        
         <HomeWrapper>
             <Menu></Menu>
             <Login></Login>
