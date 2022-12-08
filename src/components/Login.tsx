@@ -9,7 +9,7 @@ function Login(){
             <input type="text" placeholder='Usuário'></input>
             <input type="password" placeholder='Senha'></input>
             <p>Não possui conta? Cadastre-se</p>
-            <button>Entrar</button>            
+            <button>Entrar</button>
         </LoginWrapper>
     );
 }
