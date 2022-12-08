@@ -1,12 +1,12 @@
 import React from 'react';
-import { HomeWrapper,Titlef } from '../styles/Home';
+import { HomeWrapper } from '../styles/Home';
 import Menu from '../components/Menu';
+import Login from '../components/Login';
 
 function Home(){
     return(
         <HomeWrapper>
-            <Titlef>Pagina Inicial</Titlef>
-            <Menu></Menu>
+            <Login></Login>
         </HomeWrapper>
     );
 }
