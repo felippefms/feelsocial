@@ -10,15 +10,15 @@ function Menu(){
                 </Link>
 
                 <Link to='/Profile'>
-                    <a>Página 2</a>
+                    <a>Perfil</a>
                 </Link>
 
                 <Link to='/Messages'>
-                    <a>Página 3</a>
+                    <a>Mensagens</a>
                 </Link>
 
                 <Link to='/Friends'>
-                    <a>Página 4</a>
+                    <a>Amigos</a>
                 </Link>
             </nav>
         </Menuwrapper>
