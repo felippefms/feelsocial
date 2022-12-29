@@ -54,3 +54,14 @@ export const LoginWrapper = styled.div`
         cursor: pointer;
     }
 `
+export const CreateAccWrapper = styled.div`
+    width: 550px;
+    height: 650px;
+    background-color: #746d88;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+`
