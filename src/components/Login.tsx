@@ -1,4 +1,5 @@
 import { LoginWrapper } from '../styles/Login';
+import { Link } from "react-router-dom";
 import Logo from '../imgs/feelsociallogo.png';
 
 function Login(){
@@ -9,7 +10,7 @@ function Login(){
             <input type="text" placeholder='Usuário'></input>
             <input type="password" placeholder='Senha'></input>
             <p>Não possui conta? Cadastre-se</p>
-            <button>Entrar</button>
+            <Link to='/Profile'><button>Entrar</button></Link>
         </LoginWrapper>
     );
 }
